@@ -1,8 +1,32 @@
+import { Header } from "./components/Header";
+import { Hero } from "./Section/Hero";
+import { About } from "./Section/About";
+import { Skills } from "./Section/Skills";
+import { Projects } from "./Section/Projects";
+import { Contact } from "./Section/Contact";
+import { SystemProfiles } from "./Section/SystemProfiles";
+import { useActiveSection } from "./hooks/useActiveSection";
+
 function App() {
+  const activeSection = useActiveSection([
+    "home",
+    "profile",
+    "about",
+    "skills",
+    "projects",
+    "contact",
+  ]);
+
   return (
-    <main className="min-h-screen flex items-center justify-center">
-      <h1 className="text-5xl font-bold text-cyan-500">My Portfolio</h1>
-    </main>
+    <>
+      <Header activeSection={activeSection} />
+      <Hero />
+      <SystemProfiles />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
+    </>
   );
 }
 
