@@ -11,9 +11,9 @@ export type Project = {
   };
 };
 
-import portfolio1 from "../image/Portfolio01.png";
-import portfolio2 from "../image/Portfolio02.png";
-import portfolio3 from "../image/Portfolio03.png";
+import portfolio1 from "../image/portfolio01.png";
+import portfolio2 from "../image/portfolio02.png";
+import portfolio3 from "../image/portfolio03.png";
 import articleBoard1 from "../image/記事掲示版アプリ1.png";
 import articleBoard2 from "../image/記事掲示板アプリ2.png";
 import articleBoard3 from "../image/記事掲示板アプリ3.png";
