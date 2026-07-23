@@ -1,3 +1,4 @@
+import { ArrowDown } from "lucide-react";
 import { ParticleBackground } from "../components/ParticleBackground";
 import { TypingName } from "../components/TypingName";
 import { DeveloperDashboard } from "../components/DeveloperDashboard";
@@ -93,6 +94,14 @@ export function Hero() {
             <div className="absolute inset-0 -z-10 rounded-4xl bg-[radial-gradient(circle_at_center,rgba(93,214,255,0.15),transparent_62%)] blur-3xl" />
             <DeveloperDashboard />
           </div>
+        </div>
+      </div>
+
+      <div className="absolute bottom-6 left-1/2 -translate-x-1/2">
+        <div className="flex flex-col items-center gap-2 text-(--text-secondary)">
+          <span className="font-mono text-xs tracking-[0.18em]">SCROLL</span>
+
+          <ArrowDown className="h-4 w-4 animate-bounce" />
         </div>
       </div>
     </section>
