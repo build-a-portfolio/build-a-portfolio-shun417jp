@@ -4,6 +4,7 @@ import { About } from "./Section/About";
 import { Skills } from "./Section/Skills";
 import { Projects } from "./Section/Projects";
 import { Contact } from "./Section/Contact";
+import { Explanation } from "./Section/Explanation";
 import { SystemProfiles } from "./Section/SystemProfiles";
 import { useActiveSection } from "./hooks/useActiveSection";
 
@@ -15,6 +16,7 @@ function App() {
     "skills",
     "projects",
     "contact",
+    "explanation",
   ]);
 
   return (
@@ -26,6 +28,7 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
+      <Explanation />
     </>
   );
 }

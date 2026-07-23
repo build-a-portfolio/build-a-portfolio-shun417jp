@@ -6,7 +6,8 @@ export type NavSectionId =
   | "about"
   | "skills"
   | "projects"
-  | "contact";
+  | "contact"
+  | "explanation";
 
 export function useActiveSection(sectionIds: NavSectionId[]) {
   const [active, setActive] = useState<NavSectionId>(sectionIds[0] ?? "home");
