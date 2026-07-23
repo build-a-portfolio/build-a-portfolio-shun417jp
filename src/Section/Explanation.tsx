@@ -4,11 +4,6 @@ export function Explanation() {
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8 text-center">セルフ解説</h2>
 
-        <p>
-          このポートフォリオは、エンジニアを目指す学生や採用担当者に向けて、
-          自身のスキルや制作物を分かりやすく紹介することを目的として制作しました。
-        </p>
-
         <p className="text-lg text-gray-700 mb-4">
           このポートフォリオサイトでは、アニメーションやモーダルなどのUIに工夫を凝らし、
           作品やスキルを直感的に伝えることを目指しました。React・TypeScriptを用いた開発経験を活かし、
@@ -40,10 +35,6 @@ export function Explanation() {
         <p className="text-lg text-gray-700 mb-4">
           Projectsセクションの画像表示にはSwiperを導入し、スワイプ操作で
           直感的に作品を閲覧できるようにしました。
-        </p>
-
-        <p>
-          課題は、ライブラリの選定に時間がかかったり、適切ではないライブラリを選んでしまったりすることでした。特にSwiperの導入では、Reactでの使用方法やスタイリングの調整に苦労しました。
         </p>
       </div>
     </section>
