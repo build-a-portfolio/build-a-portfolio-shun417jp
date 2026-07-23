@@ -32,7 +32,7 @@ export const projects: Project[] = [
     title: "Portfolio",
     duration: "1 month",
     responsibility: "Full-stack (Architecture / API / UI)",
-    languages: ["TypeScript", "React", "Node.js", "SQL"],
+    languages: ["TypeScript", "React", "Tailwind CSS", "Vite"],
     details:
       "作品やスキルを分かりやすく伝えるために構成したポートフォリオサイトです。セクション遷移、プロジェクト一覧、モーダル詳細表示を通して、見やすさと印象に残る体験を両立させました。",
     imageUrls: [portfolio1, portfolio2, portfolio3],
@@ -45,7 +45,7 @@ export const projects: Project[] = [
     title: "記事掲示板アプリ",
     duration: "1 months",
     responsibility: "Frontend + Realtime (WebSocket UX)",
-    languages: ["TypeScript", "Next.js", "Prisma"],
+    languages: ["TypeScript", "Next.js", "Python"],
     details:
       "記事の投稿、閲覧、コメントを中心にした掲示板アプリです。リアルタイムな更新と型安全な API を組み合わせ、投稿内容が自然に整理される使いやすい UI を目指しました。",
     imageUrls: [articleBoard1, articleBoard2, articleBoard3],
@@ -58,7 +58,7 @@ export const projects: Project[] = [
     title: "講義レビューサイト",
     duration: "1 month",
     responsibility: "Frontend",
-    languages: ["TypeScript", "React", "Chart.js"],
+    languages: ["TypeScript", "React", "Python"],
     details:
       "講義ごとのレビューや評価を比較しやすくしたサイトです。レスポンシブ UI等を使用し、学習の振り返りや講義選びに使いやすい構成にしました。",
     imageUrls: [lectureReviewThumb, lectureReview2, lectureReview3],
@@ -67,7 +67,7 @@ export const projects: Project[] = [
     title: "備品管理アプリ",
     duration: "1 month",
     responsibility: "Java(Spring Boot) + React",
-    languages: ["Java", "Spring Boot", "React"],
+    languages: ["Java(Spring Boot)", "React"],
     details:
       "備品の登録・編集・一覧管理を効率よく行える管理アプリです。現場での運用を意識し、素早い入力と確認がしやすい画面設計にまとめました。",
     imageUrls: [
